@@ -485,8 +485,10 @@ __global__ void reduceUnrolling16(int *g_idata, int *g_odata, unsigned int n)
 
 ## OUTPUT:
 ### Unrolling8
-![](8.png)
+![image](https://github.com/VINUTHNA-2004/PCA-EXP-3-PARALLEL-REDUCTION-USING-UNROLLING-TECHNIQUES-AY-23-24/assets/95067307/369eb3b3-e629-43af-8f98-cde17af4d4ae)
+
 ### Unrolling16
-![](16.png)
+![image](https://github.com/VINUTHNA-2004/PCA-EXP-3-PARALLEL-REDUCTION-USING-UNROLLING-TECHNIQUES-AY-23-24/assets/95067307/c6016e24-d54c-40ea-b357-81371bdaef32)
+
 ## RESULT:
 Thus the program has been executed by unrolling by 8 and unrolling by 16. It is observed that 16 has executed with less elapsed time than 8 with blocks 1048576,1048576.
